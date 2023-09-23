@@ -34,12 +34,12 @@ class Solution:
         number = str(x)
         lenght= len(number)
         
-        print(lenght)
-        print(lenght // 2)
+        #print(lenght)
+        #print(lenght // 2)
         
         for i in range(lenght // 2):
-            print(number[i])
-            print(number[lenght - i - 1])
+            #print(number[i])
+            #print(number[lenght - i - 1])
             if number[i] != number[lenght - i - 1]: # 0 != 3
             
                 return False
